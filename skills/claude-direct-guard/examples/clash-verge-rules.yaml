@@ -1,0 +1,28 @@
+# Claude routing rules extension, extracted from an existing user-owned overlay.
+# Replace the strategy group with an existing proxy group in the target profile.
+# This contains routing rules only; it contains no nodes or subscription credentials.
+prepend:
+  - "DOMAIN-SUFFIX,anthropic.com,🤖AI服务"
+  - "DOMAIN-SUFFIX,claude.ai,🤖AI服务"
+  - "DOMAIN-SUFFIX,claude.com,🤖AI服务"
+  - "DOMAIN-SUFFIX,claude.app,🤖AI服务"
+  - "DOMAIN-SUFFIX,clau.de,🤖AI服务"
+  - "DOMAIN-SUFFIX,claudemcpclient.com,🤖AI服务"
+  - "DOMAIN-SUFFIX,claudemcpcontent.com,🤖AI服务"
+  - "DOMAIN-SUFFIX,claudeusercontent.com,🤖AI服务"
+  - "DOMAIN,servd-anthropic-website.b-cdn.net,🤖AI服务"
+  - "DOMAIN,anthropic.com.cdn.cloudflare.net,🤖AI服务"
+  - "DOMAIN,anthropic.auth0.com,🤖AI服务"
+  - "DOMAIN,anthropic-com.ghost.io,🤖AI服务"
+  - "DOMAIN-SUFFIX,sentry.io,🤖AI服务"
+  - "DOMAIN-SUFFIX,statsigapi.net,🤖AI服务"
+  - "DOMAIN,api.statsig.com,🤖AI服务"
+  - "DOMAIN,http-intake.logs.us5.datadoghq.com,🤖AI服务"
+  - "DOMAIN,browser-intake-us5-datadoghq.com,🤖AI服务"
+  - "DOMAIN-SUFFIX,intercom.io,🤖AI服务"
+  - "DOMAIN-SUFFIX,intercomcdn.com,🤖AI服务"
+  - "DOMAIN,cdn.usefathom.com,🤖AI服务"
+  - "IP-CIDR,160.79.104.0/23,🤖AI服务,no-resolve"
+  - "IP-CIDR6,2607:6bc0::/48,🤖AI服务,no-resolve"
+append: []
+delete: []

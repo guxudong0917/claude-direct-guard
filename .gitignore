@@ -1,0 +1,9 @@
+.env
+.env.*
+*.log
+*.wfw
+*.bak
+*.backup
+__pycache__/
+private/
+work/

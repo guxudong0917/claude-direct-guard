@@ -1,0 +1,4 @@
+interface:
+  display_name: "Claude 防直连保护"
+  short_description: "在 Windows 上维护 Claude 的 Clash 分流、目标 IP 拦截与只读核验"
+  default_prompt: "使用 $claude-direct-guard 检查或配置 Claude 分流与目标 IP 防直连，并按现有授权范围执行。"
