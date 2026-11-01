@@ -74,3 +74,8 @@ Copy-Item -LiteralPath '.\claude-direct-guard\skills\claude-direct-guard' -Desti
 - [Claude Code 官方网络配置](https://code.claude.com/docs/en/network-config)
 - [Anthropic 官方 IP 文档](https://platform.claude.com/docs/en/api/ip-addresses)
 - [Net.Coffee 分流建议](https://ip.net.coffee/claude/site.html)
+
+## 贡献与致谢
+
+- **[guxudong0917](https://github.com/guxudong0917)**：项目维护、使用需求、实际环境与分流规则，以及配置方案的选择与反馈。
+- **Codex（OpenAI）**：作为 AI 编程助手参与技能整理、分流规则整合、只读核验脚本编写与验证、文档编写及 GitHub 发布协助。
